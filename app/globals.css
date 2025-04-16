@@ -18,7 +18,27 @@
     --foreground: #ededed;
   }
 }
-
+.bg-primary {
+  background-color: #28a745;
+}
+.bg-secondary {
+  background-color: #10411b;
+}
+.bg-complementry {
+  background-color: #009eca;
+}
+.text-primary {
+  background-color: #28a745;
+}
+.text-secondary {
+  background-color: #10411b;
+}
+.text-complementry {
+  background-color: #009eca;
+}
+.text-color {
+  color: #282828;
+}
 body {
   background: var(--background);
   color: var(--foreground);
