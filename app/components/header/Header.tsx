@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div className="relative">
-      <header className="border-b container mx-auto px-8 border-[#10411B] ">
+      <header className=" container mx-auto px-8 ">
         <div className="flex justify-between items-center py-3">
           <SlMenu
             className="w-7 h-6 cursor-pointer"
