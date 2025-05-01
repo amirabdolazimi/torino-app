@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header/Header";
 
 const vazirMatn = Vazirmatn({
   subsets: ["arabic"],
-  weight: "400",
+  weight: ["400", "600"],
 });
 export const metadata: Metadata = {
   title: "Torino | تورینو",
@@ -18,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${vazirMatn.className} antialiased`}>{children}</body>
+      <body className={`${vazirMatn.className} antialiased`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
