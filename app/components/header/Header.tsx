@@ -9,6 +9,7 @@ import { useClickOutside } from "@/app/hooks/useClickOutSide";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+
 const Header = () => {
   const pathName = usePathname();
   const [openMenu, setOpenMenu] = useState<boolean>(false);
